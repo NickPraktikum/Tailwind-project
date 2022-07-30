@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.aLink{
+    @apply block py-2 px-3
+}
+.active{
+    @apply font-extrabold
+}
+.activeBtn{
+    @apply w-[49px] h-[16px] bg-red-600 rounded-full
+}
+.circleBtn{
+    @apply w-[16px] h-[16px] rounded-full bg-slate-500
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    border-radius: 50px;
+    background-color: #e5e7eb;
+}
